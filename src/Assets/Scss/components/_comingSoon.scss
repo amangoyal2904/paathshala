@@ -1,0 +1,29 @@
+.ebook-title {
+  padding: 2rem;
+  &__title {
+    font-size: 1.5rem;
+    color: #6481e4;
+    font-weight: 600;
+  }
+}
+
+.coming-soon {
+  width: 100%;
+  background-color: $color-white;
+
+  &__img {
+    width: 20%;
+    padding-top: 40px;
+  }
+
+  &__text {
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    &-content {
+      padding-bottom: 40px;
+    }
+  }
+}

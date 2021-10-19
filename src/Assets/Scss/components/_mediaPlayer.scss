@@ -1,0 +1,15 @@
+.media-player {
+  .agora_video_player {
+    object-fit: contain !important;
+  }
+  #admin-controls {
+    display: none;
+    transition: display 0.3s ease-in-out;
+  }
+}
+
+.media-player:hover {
+  #admin-controls {
+    display: flex;
+  }
+}

@@ -1,0 +1,149 @@
+.text-align-center {
+  text-align: center !important;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.text-align-right {
+  text-align: right !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.align-items-stretch {
+  align-items: stretch !important;
+}
+
+.margin-top-big {
+  margin-top: 80px !important;
+}
+
+.margin-top-medium {
+  margin-top: 40px !important;
+}
+
+.margin-top-small {
+  margin-top: 20px !important;
+}
+
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+
+.mg-top-1rem {
+  margin-top: 1rem !important;
+}
+
+.margin-bottom-big {
+  margin-bottom: 80px !important;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 40px !important;
+}
+
+.margin-bottom-small {
+  margin-bottom: 20px !important;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+.mg-bottom-1rem {
+  margin-bottom: 1rem !important;
+}
+
+.margin-right-smallest {
+  margin-right: 10px !important;
+}
+
+.margin-left-unset {
+  margin-left: unset !important;
+}
+
+.mg-left-10 {
+  margin-left: 10px !important;
+}
+
+.mg-left-30 {
+  margin-left: 30px !important;
+}
+
+.padding-small {
+  padding: 2rem !important;
+}
+
+.pd-top-30 {
+  padding-top: 30px !important;
+}
+
+.pd-bottom-30 {
+  padding-bottom: 30px !important;
+}
+
+.pd-bottom-12 {
+  padding-bottom: 12px !important;
+}
+
+.position-unset {
+  position: unset !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-content-space-around {
+  justify-content: space-around !important;
+}
+
+.vertically-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.width-100 {
+  width: 100%;
+}
+.width-50 {
+  width: 50% !important;
+}
+
+.width-30 {
+  width: 30% !important;
+}
+
+.width-20 {
+  width: 20% !important;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.full-height {
+  height: calc(100vh - 64px);
+
+  @include respond(tab-port) {
+    height: calc(100vh - 56px);
+  }
+}
+
+.clean-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-unset {
+  background-color: unset !important;
+}

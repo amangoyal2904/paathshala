@@ -1,0 +1,21 @@
+<svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+    <path fill="#fff" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+      <animateTransform 
+         attributeName="transform" 
+         attributeType="XML" 
+         type="rotate"
+         dur="1s" 
+         from="0 50 50"
+         to="360 50 50" 
+         repeatCount="indefinite" />
+  </path>
+  <g fill="none" fill-rule="evenodd">
+        <g fill="#fff" fill-rule="nonzero">
+            <g>
+                <path d="M26.998 0v18.08H16.676l3.415 6.84h-2.644l-1.161-2.357h-6.06l-1.163 2.356H6.45l3.391-6.84H0V0h26.998zM14.076 18.08h-1.64l-1.35 2.737h4.34l-1.35-2.737zm11.76-16.917H1.164v15.753h24.674V1.163zM25 14v2h-4v-2h4z" transform="translate(50 50) translate(-13.2 -10)"/>
+            </g>
+        </g>
+    </g>
+  
+</svg>

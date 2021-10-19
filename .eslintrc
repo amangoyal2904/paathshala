@@ -1,0 +1,16 @@
+{
+  "extends": ["@imaginary-cloud/react"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 11
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "consistent-return": "off",
+    "no-nested-ternary": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "camelcase": "off",
+    "no-param-reassign": "off",
+    "jsx-a11y/media-has-caption": "off"
+  }
+}

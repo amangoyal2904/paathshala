@@ -1,0 +1,25 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: max-content;
+
+  #loading-text {
+    color: #fff;
+  }
+}
+
+#loading-image {
+  position: relative;
+  #image-parent {
+    width: max-content;
+    margin: 0 auto;
+    img {
+      width: 200px;
+      height: 200px;
+      z-index: 999;
+    }
+  }
+}
